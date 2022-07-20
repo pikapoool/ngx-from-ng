@@ -7,6 +7,7 @@ vendor
 dist/
 tmp/
 .tmp/
+.vscode/
 
 debug.log
 npm-debug.log
