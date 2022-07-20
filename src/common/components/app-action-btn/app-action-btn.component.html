@@ -1,0 +1,2 @@
+<button *ngIf="text" [disabled]="isPermitted" (click)="onClick()">{{text}}</button>
+<button *ngIf="!text" [disabled]="isPermitted">disabled</button>

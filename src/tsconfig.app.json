@@ -1,0 +1,18 @@
+{
+    "extends": "./../tsconfig.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "baseUrl": "",
+        "lib": [
+            "es2016",
+            "dom"
+        ]
+    },
+    "exclude": [
+        "test.ts",
+        "**/*.spec.ts"
+    ],
+    "angularCompilerOptions": {
+        "entryModule": "./appStarter/appModule#AppModule"
+    }
+}

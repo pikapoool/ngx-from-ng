@@ -1,2 +1,2 @@
 # ngx-from-ng
-using ngx components from ng project
+example how to update AngularJx project: use AngularX components from AngularJx project and and vice versa

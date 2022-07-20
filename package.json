@@ -1,0 +1,58 @@
+{
+  "name": "downgrade-ngx-to-ng-project",
+  "version": "0.0.1",
+  "dependencies": {
+    "@angular/animations": "7.1.4",
+    "@angular/cdk": "7.2.0",
+    "@angular/common": "7.1.4",
+    "@angular/core": "7.1.4",
+    "@angular/forms": "7.1.4",
+    "@angular/http": "7.1.4",
+    "@angular/platform-browser": "7.1.4",
+    "@angular/platform-browser-dynamic": "7.1.4",
+    "@angular/router": "7.1.4",
+    "@angular/upgrade": "7.1.4",
+    "@uirouter/angularjs": "1.0.20",
+    "angular": "1.7.5",
+    "core-js": "2.6.1",
+    "es6-promise": "4.2.5",
+    "es6-shim": "0.35.4",
+    "mdn-polyfills": "5.15.0",
+    "ngx-permissions": "5.0.0",
+    "rxjs": "6.3.3",
+    "source-map-loader": "0.2.4",
+    "zone.js": "0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "0.11.4",
+    "@angular/cli": "7.1.4",
+    "@angular/compiler": "7.1.4",
+    "@angular/compiler-cli": "7.1.4",
+    "@types/angular": "1.6.52",
+    "@types/lodash-es": "4.17.1",
+    "@types/node": "10.12.10",
+    "codelyzer": "4.5.0",
+    "eslint": "5.10.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-typescript": "0.14.0",
+    "node-sass": "^4.14.1",
+    "ts-node": "7.0.1",
+    "tslib": "^1.10.0",
+    "tslint": "5.12.0",
+    "typescript": "3.1.6",
+    "typescript-eslint-parser": "21.0.2"
+  },
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build",
+    "serveProd": "ng serve --prod",
+    "buildProd": "ng build --prod"
+  },
+  "standard": {
+    "parser": "typescript-eslint-parser",
+    "plugins": [
+      "typescript",
+      "javascript"
+    ]
+  }
+}

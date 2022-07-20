@@ -1,0 +1,19 @@
+<nav-bar></nav-bar>
+
+<!-- start Angular 7 component -->
+<ngx-page></ngx-page>
+<br />
+<br />
+<p>button NGX component inside NG template: </p>
+<ngx-action-btn
+    role="user"
+    text="<-- Go back using ng router"
+    (go-to-url)="goToAddUrl()"
+    (goToUrl)="goToAddUrl()"
+></ngx-action-btn>
+
+<ngx-action-btn
+    action="CREATE"
+    [role]="role"
+></ngx-action-btn>
+<!-- end Angular 7 component -->
